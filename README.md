@@ -12,15 +12,18 @@
 ![image](https://user-images.githubusercontent.com/120368654/228661557-a554dcfe-1251-4de7-b7e2-647f94ef718b.png)
 
 4. Tester les opérations du web service avec un outil comme SoapUI ou Oxygen
-
-Test de la WebMethod Convert
+   - Test de la WebMethod Convert
 ![image](https://user-images.githubusercontent.com/120368654/228663965-c3a34a42-6f68-4cc4-98e4-d392fca521b0.png)
-Test de la WebMethod getCompte
-![image](https://user-images.githubusercontent.com/120368654/228664350-5be331e3-c081-4501-9fbe-a7acb0118911.png)
-Test de la WebMethod listComptes
-![image](https://user-images.githubusercontent.com/120368654/228665175-765341aa-6123-4acc-9ce9-baa890f0e44d.png)
+   - Test de la WebMethod getCompte
+![image](https://user-images.githubusercontent.com/120368654/228667009-9a9fd026-f05f-481c-8964-cfb6b9e04477.png)
+   - Test de la WebMethod listComptes
+![image](https://user-images.githubusercontent.com/120368654/228667102-86faae5c-49ea-4131-8e69-1aceae9d4425.png)
+   - 2ème test de la WebMethod listComptes après avoir utilisé l'annotation @XmlTransient
+![image](https://user-images.githubusercontent.com/120368654/228667765-d811b163-eff9-4706-9972-70b194710cf3.png)
+
 
 5. Créer un Client SOAP Java
+
 6. Créer un Client SOAP Dot Net
 7. Créer un Client SOAP PHP
 8. Déployer le Web Service dans un Projet Spring Boot
