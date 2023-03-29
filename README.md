@@ -24,6 +24,16 @@
 
 5. Créer un Client SOAP Java
 
+![image](https://user-images.githubusercontent.com/120368654/228675161-2f6f9db9-13a7-4c44-bbef-ae450c993e75.png)
+
 6. Créer un Client SOAP Dot Net
+
+![image](https://user-images.githubusercontent.com/120368654/228681456-1737a30c-f9a0-47c9-8a08-101865d7bc6c.png)
+
 7. Créer un Client SOAP PHP
+
+![image](https://user-images.githubusercontent.com/120368654/228686095-d89fab05-a871-4328-a27d-a12c3240060f.png)
+
+![image](https://user-images.githubusercontent.com/120368654/228686169-8a6ce048-5cec-4d5e-8eb0-b893617d3314.png)
+
 8. Déployer le Web Service dans un Projet Spring Boot
