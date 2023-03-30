@@ -30,6 +30,11 @@
 
 ![image](https://user-images.githubusercontent.com/120368654/228681456-1737a30c-f9a0-47c9-8a08-101865d7bc6c.png)
 
+   - Client SOAP Dot Net avec GUI
+
+![image](https://user-images.githubusercontent.com/120368654/228967569-1a107856-2986-4445-9438-8f83c471ae7d.png)
+
+
 7. Créer un Client SOAP PHP
 
 ![image](https://user-images.githubusercontent.com/120368654/228686095-d89fab05-a871-4328-a27d-a12c3240060f.png)
