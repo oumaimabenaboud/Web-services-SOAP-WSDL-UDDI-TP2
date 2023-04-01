@@ -21,6 +21,7 @@
             <version>4.0.1</version>
             <type>pom</type>
         </dependency>
+
         <dependency>
             <groupId>org.sid</groupId>
             <artifactId>Web-services-SOAP-WSDL-UDDI-TP2</artifactId>
