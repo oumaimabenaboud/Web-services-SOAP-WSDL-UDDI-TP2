@@ -42,3 +42,7 @@
 ![image](https://user-images.githubusercontent.com/120368654/228686169-8a6ce048-5cec-4d5e-8eb0-b893617d3314.png)
 
 8. Déployer le Web Service dans un Projet Spring Boot
+
+![image](https://user-images.githubusercontent.com/120368654/229321519-d97cc151-3d2a-452e-826d-059ee61d24e1.png)
+
+
