@@ -36,18 +36,18 @@
             this.label2 = new System.Windows.Forms.Label();
             this.textBoxRes = new System.Windows.Forms.TextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.compteBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.codeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.soldeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.compteBindingSource = new System.Windows.Forms.BindingSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.compteBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // btnConversion
             // 
-            this.btnConversion.BackColor = System.Drawing.Color.Crimson;
+            this.btnConversion.BackColor = System.Drawing.Color.DarkGray;
             this.btnConversion.ForeColor = System.Drawing.Color.White;
-            this.btnConversion.Location = new System.Drawing.Point(417, 133);
+            this.btnConversion.Location = new System.Drawing.Point(750, 139);
             this.btnConversion.Name = "btnConversion";
             this.btnConversion.Size = new System.Drawing.Size(155, 50);
             this.btnConversion.TabIndex = 0;
@@ -57,7 +57,7 @@
             // 
             // textBoxMT
             // 
-            this.textBoxMT.Location = new System.Drawing.Point(200, 94);
+            this.textBoxMT.Location = new System.Drawing.Point(533, 100);
             this.textBoxMT.Name = "textBoxMT";
             this.textBoxMT.Size = new System.Drawing.Size(198, 38);
             this.textBoxMT.TabIndex = 1;
@@ -65,8 +65,8 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.ForeColor = System.Drawing.Color.Crimson;
-            this.label1.Location = new System.Drawing.Point(77, 94);
+            this.label1.ForeColor = System.Drawing.Color.Teal;
+            this.label1.Location = new System.Drawing.Point(410, 100);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(117, 32);
             this.label1.TabIndex = 2;
@@ -75,9 +75,9 @@
             // 
             // btnComptes
             // 
-            this.btnComptes.BackColor = System.Drawing.Color.Crimson;
+            this.btnComptes.BackColor = System.Drawing.Color.DarkCyan;
             this.btnComptes.ForeColor = System.Drawing.Color.White;
-            this.btnComptes.Location = new System.Drawing.Point(541, 277);
+            this.btnComptes.Location = new System.Drawing.Point(522, 294);
             this.btnComptes.Name = "btnComptes";
             this.btnComptes.Size = new System.Drawing.Size(296, 50);
             this.btnComptes.TabIndex = 3;
@@ -88,8 +88,8 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.ForeColor = System.Drawing.Color.Crimson;
-            this.label2.Location = new System.Drawing.Point(75, 181);
+            this.label2.ForeColor = System.Drawing.Color.DarkCyan;
+            this.label2.Location = new System.Drawing.Point(408, 187);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(119, 32);
             this.label2.TabIndex = 4;
@@ -97,7 +97,7 @@
             // 
             // textBoxRes
             // 
-            this.textBoxRes.Location = new System.Drawing.Point(200, 175);
+            this.textBoxRes.Location = new System.Drawing.Point(533, 181);
             this.textBoxRes.Name = "textBoxRes";
             this.textBoxRes.Size = new System.Drawing.Size(198, 38);
             this.textBoxRes.TabIndex = 5;
@@ -105,6 +105,7 @@
             // dataGridView1
             // 
             this.dataGridView1.AutoGenerateColumns = false;
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.CadetBlue;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.codeDataGridViewTextBoxColumn,
@@ -116,10 +117,6 @@
             this.dataGridView1.RowTemplate.Height = 40;
             this.dataGridView1.Size = new System.Drawing.Size(1400, 415);
             this.dataGridView1.TabIndex = 6;
-            // 
-            // compteBindingSource
-            // 
-            this.compteBindingSource.DataSource = typeof(clientDOTNET_GUI.ServiceReference1.compte);
             // 
             // codeDataGridViewTextBoxColumn
             // 
@@ -137,6 +134,10 @@
             this.soldeDataGridViewTextBoxColumn.MinimumWidth = 12;
             this.soldeDataGridViewTextBoxColumn.Name = "soldeDataGridViewTextBoxColumn";
             this.soldeDataGridViewTextBoxColumn.Width = 250;
+            // 
+            // compteBindingSource
+            // 
+            this.compteBindingSource.DataSource = typeof(clientDOTNET_GUI.ServiceReference1.compte);
             // 
             // Form1
             // 

@@ -9,7 +9,7 @@ class Program
         new ServiceReference1.BanqueServiceClient();
 
         Console.WriteLine("-------- Conversion ---------");
-        Console.WriteLine(stub.Convert(34));
+        Console.WriteLine(stub.Convert(77));
         Console.WriteLine("-------- Consulter un Compte ---------");
         ServiceReference1.compte cp = stub.getCompte(2);
         Console.WriteLine("Solde=" + cp.solde);
